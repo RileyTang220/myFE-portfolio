@@ -1,5 +1,6 @@
 import { LanguageProvider } from './contexts/LanguageContext';
 import { ThemeProvider } from './contexts/ThemeContext';
+import ParticleBackground from './components/ParticleBackground';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -15,19 +16,21 @@ function App() {
   return (
     <LanguageProvider>
       <ThemeProvider>
-        <div className="App">
-          <Navbar />
-          <main>
-            <Hero />
-            <About />
-            <Experience />
-            <Education />
-            <Projects />
-            <Skills />
-            <Contact />
-          </main>
-          <Footer />
-        </div>
+        <ParticleBackground>
+          <div className="App">
+            <Navbar />
+            <main>
+              <Hero />
+              <About />
+              <Experience />
+              <Education />
+              <Projects />
+              <Skills />
+              <Contact />
+            </main>
+            <Footer />
+          </div>
+        </ParticleBackground>
       </ThemeProvider>
     </LanguageProvider>
   );

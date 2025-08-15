@@ -7,7 +7,7 @@ const Hero = () => {
   const { t } = useLanguage();
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-indigo-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-colors duration-200">
+    <section id="home" className="min-h-screen flex items-center justify-center relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -18,7 +18,7 @@ const Hero = () => {
           {/* Profile Image */}
           <div className="flex justify-center">
             <div className="w-32 h-32 rounded-full bg-gradient-to-r from-primary-500 to-blue-600 p-1">
-              <div className="w-full h-full rounded-full bg-white dark:bg-gray-800 flex items-center justify-center">
+              <div className="w-full h-full rounded-full bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm flex items-center justify-center">
                 <span className="text-4xl font-bold text-primary-600 dark:text-primary-400">
                   {config.personal.name.split(' ').map(n => n[0]).join('')}
                 </span>
@@ -75,18 +75,6 @@ const Hero = () => {
               <Mail size={24} />
             </a>
           </div>
-
-          {/* Download CV */}
-          {/* <div className="pt-8">
-            <a
-              href="/resume.pdf"
-              download
-              className="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium transition-colors duration-200"
-            >
-              <Download size={20} />
-              {t('hero.downloadResume')}
-            </a>
-          </div> */}
         </motion.div>
       </div>
     </section>

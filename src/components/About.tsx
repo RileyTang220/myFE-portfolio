@@ -14,7 +14,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="section-padding bg-white dark:bg-gray-900 transition-colors duration-200">
+    <section id="about" className="section-padding relative">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -73,7 +73,7 @@ const About = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.1 * index }}
                 viewport={{ once: true }}
-                className="card hover:shadow-xl dark:hover:shadow-gray-900/30 transition-shadow duration-300"
+                className="card hover:shadow-xl dark:hover:shadow-gray-900/30 transition-shadow duration-300 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm"
               >
                 <div className="w-12 h-12 bg-primary-100 dark:bg-primary-900/30 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <skill.icon className="w-6 h-6 text-primary-600 dark:text-primary-400" />
