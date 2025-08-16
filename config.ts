@@ -1,5 +1,96 @@
 // Configuration file for the portfolio website
-export const config = {
+
+// Type definitions
+interface Education {
+  id: number;
+  degree: string;
+  institution: string;
+  location: string;
+  period: string;
+  description: string;
+  gpa: string;
+  relevantCourses: string[];
+  achievements: string[];
+}
+
+interface WorkExperience {
+  id: number;
+  company: string;
+  position: string;
+  period: string;
+  location: string;
+  description: string;
+  responsibilities: string[];
+  technologies: string[];
+  achievements: string[];
+  projectHighlight?: string;
+}
+
+interface Skill {
+  name: string;
+  level: number;
+}
+
+interface SkillCategory {
+  name: string;
+  skills: Skill[];
+}
+
+interface Project {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+  technologies: string[];
+  github: string;
+  live: string;
+  featured: boolean;
+}
+
+interface Config {
+  site: {
+    name: string;
+    title: string;
+    description: string;
+    url: string;
+  };
+  personal: {
+    name: string;
+    title: string;
+    location: string;
+    email: string;
+    phone: string;
+    about: string;
+    experience: string;
+    projects: string;
+  };
+  social: {
+    github: string;
+    linkedin: string;
+    twitter: string;
+    email: string;
+  };
+  education: Education[];
+  workExperience: WorkExperience[];
+  skills: {
+    categories: SkillCategory[];
+    additional: string[];
+  };
+  projects: Project[];
+  contact: {
+    formspree: string;
+    netlify: boolean;
+  };
+  seo: {
+    title: string;
+    description: string;
+    keywords: string[];
+    author: string;
+    ogImage: string;
+  };
+}
+
+export const config: Config = {
   // Site Information
   site: {
     name: "Riley Tang",
@@ -23,8 +114,8 @@ export const config = {
   // Social Media Links
   social: {
     github: "https://github.com/RileyTang220",
-    // linkedin: "https://linkedin.com/in/RileyTang220",
-    // twitter: "https://twitter.com/rileytang",
+    linkedin: "https://linkedin.com/in/RileyTang220",
+    twitter: "https://twitter.com/rileytang",
     email: "mailto:rileytang19@gmail.com",
   },
 
@@ -39,7 +130,7 @@ export const config = {
       description: "Studied fundamental theories and professional knowledge of electronic science, mastered electronic technology application capabilities. Focused on electronic circuit design, signal processing, and electronic system integration.",
       gpa: "3.8/4.0",
       relevantCourses: ["Electronic Circuit Analysis", "Digital Electronics", "Signal Processing", "Microelectronics", "Electronic System Design"],
-      // achievements: ["Dean's List", "Electronic Science Honor Society", "Circuit Design Competition Winner"]
+      achievements: ["Dean's List", "Electronic Science Honor Society", "Circuit Design Competition Winner"]
     },
     {
       id: 2,
@@ -50,7 +141,7 @@ export const config = {
       description: "In-depth research on integrated circuit design theory, mastered advanced chip design technology. Specialized in VLSI design, analog circuit design, and digital signal processing for communication systems.",
       gpa: "3.9/4.0",
       relevantCourses: ["VLSI Design", "Analog Circuit Design", "Digital Signal Processing", "Communication Theory", "IC Layout Design"],
-      // achievements: ["Outstanding Graduate", "Research Excellence Award", "IC Design Innovation Prize"]
+      achievements: ["Outstanding Graduate", "Research Excellence Award", "IC Design Innovation Prize"]
     }
   ],
 
