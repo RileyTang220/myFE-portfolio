@@ -5,16 +5,16 @@ export const config = {
     name: "Riley Tang",
     title: "Frontend Developer & UI/UX Designer",
     description: "I create beautiful, responsive, and user-friendly web experiences using modern technologies like React, TypeScript, and Tailwind CSS.",
-    url: "https://yourdomain.com",
+    url: "https://ruilingtang.com/",
   },
 
   // Personal Information
   personal: {
     name: "Riley Tang",
     title: "Frontend Developer & UI/UX Designer",
-    location: "San Francisco, CA",
-    email: "riley@example.com",
-    phone: "+1 (555) 123-4567",
+    location: "Adelaide, SA",
+    email: "rileytang19@gmail.com",
+    phone: "+61 420693629",
     about: "I'm a passionate frontend developer with over 5 years of experience creating exceptional digital experiences. I specialize in building modern, scalable web applications that not only look great but also provide exceptional user experiences.",
     experience: "5+",
     projects: "50+",
@@ -23,9 +23,9 @@ export const config = {
   // Social Media Links
   social: {
     github: "https://github.com/RileyTang220",
-    linkedin: "https://linkedin.com/in/RileyTang220",
-    twitter: "https://twitter.com/rileytang",
-    email: "mailto:riley@example.com",
+    // linkedin: "https://linkedin.com/in/RileyTang220",
+    // twitter: "https://twitter.com/rileytang",
+    email: "mailto:rileytang19@gmail.com",
   },
 
   // Education Configuration
@@ -39,7 +39,7 @@ export const config = {
       description: "Studied fundamental theories and professional knowledge of electronic science, mastered electronic technology application capabilities. Focused on electronic circuit design, signal processing, and electronic system integration.",
       gpa: "3.8/4.0",
       relevantCourses: ["Electronic Circuit Analysis", "Digital Electronics", "Signal Processing", "Microelectronics", "Electronic System Design"],
-      achievements: ["Dean's List", "Electronic Science Honor Society", "Circuit Design Competition Winner"]
+      // achievements: ["Dean's List", "Electronic Science Honor Society", "Circuit Design Competition Winner"]
     },
     {
       id: 2,
@@ -50,7 +50,7 @@ export const config = {
       description: "In-depth research on integrated circuit design theory, mastered advanced chip design technology. Specialized in VLSI design, analog circuit design, and digital signal processing for communication systems.",
       gpa: "3.9/4.0",
       relevantCourses: ["VLSI Design", "Analog Circuit Design", "Digital Signal Processing", "Communication Theory", "IC Layout Design"],
-      achievements: ["Outstanding Graduate", "Research Excellence Award", "IC Design Innovation Prize"]
+      // achievements: ["Outstanding Graduate", "Research Excellence Award", "IC Design Innovation Prize"]
     }
   ],
 
@@ -175,16 +175,16 @@ export const config = {
       live: "https://weather-demo.com",
       featured: false,
     },
-    {
-      id: 4,
-      title: "Portfolio Website",
-      description: "A responsive portfolio website built with modern web technologies, featuring smooth animations and optimal performance.",
-      image: "/project4.jpg",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-      github: "https://github.com/rileytang/portfolio",
-      live: "https://portfolio-demo.com",
-      featured: false,
-    },
+    // {
+    //   id: 4,
+    //   title: "Portfolio Website",
+    //   description: "A responsive portfolio website built with modern web technologies, featuring smooth animations and optimal performance.",
+    //   image: "/project4.jpg",
+    //   technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    //   github: "https://github.com/rileytang/portfolio",
+    //   live: "https://portfolio-demo.com",
+    //   featured: false,
+    // },
   ],
 
   // Contact Form Configuration

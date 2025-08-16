@@ -159,7 +159,7 @@ const Education = () => {
           viewport={{ once: true }}
           className="mt-12 text-center"
         >
-          <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg dark:shadow-gray-900/20">
+          {/* <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg dark:shadow-gray-900/20">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
               {t('language') === 'zh' ? '学术成就' : 'Academic Achievements'}
             </h3>
@@ -169,7 +169,7 @@ const Education = () => {
                 : 'Through systematic learning and practice, I have built a solid foundation in computer science and frontend development, earning multiple certifications and honors.'
               }
             </p>
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </section>
