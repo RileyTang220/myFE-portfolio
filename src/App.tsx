@@ -3,7 +3,7 @@ import { ThemeProvider } from './contexts/ThemeContext';
 import ParticleBackground from './components/ParticleBackground';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import About from './components/About';
+// import About from './components/About';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Projects from './components/Projects';
@@ -21,7 +21,7 @@ function App() {
             <Navbar />
             <main>
               <Hero />
-              <About />
+              {/* <About /> */}
               <Experience />
               <Education />
               <Projects />

@@ -94,19 +94,19 @@ export const config: Config = {
   // Site Information
   site: {
     name: "Riley Tang",
-    title: "Frontend Developer & UI/UX Designer",
-    description: "I create beautiful, responsive, and user-friendly web experiences using modern technologies like React, TypeScript, and Tailwind CSS.",
+    title: "Fullstack-oriented Frontend Developer",
+    description: "I deliver scalable, high-performance web applications in the education and enterprise domains, with expertise in Vue, React, TypeScript, and Node.js.",
     url: "https://ruilingtang.com/",
   },
 
   // Personal Information
   personal: {
     name: "Riley Tang",
-    title: "Frontend Developer & UI/UX Designer",
+    title: "Fullstack-oriented Frontend Developer",
     location: "Adelaide, SA",
     email: "rileytang19@gmail.com",
     phone: "+61 420693629",
-    about: "I'm a passionate frontend developer with over 5 years of experience creating exceptional digital experiences. I specialize in building modern, scalable web applications that not only look great but also provide exceptional user experiences.",
+    about: "I'm a passionate fullstack-oriented frontend developer with over 6 years of experience creating exceptional digital experiences. I specialize in building modern, scalable web applications that not only look great but also provide exceptional user experiences.",
     experience: "5+",
     projects: "50+",
   },
@@ -146,91 +146,200 @@ export const config: Config = {
   ],
 
   // Work Experience Configuration
-  workExperience: [
+  // workExperience: [
+  //   {
+  //     id: 1,
+  //     company: "Beijing Dedao Information Technology Co., Ltd.",
+  //     position: "Frontend Developer",
+  //     period: "2020.06 - 2022.06",
+  //     location: "Beijing, China",
+  //     description: "Responsible for developing and maintaining enterprise-level backend management systems and CRM platforms.",
+  //     responsibilities: [
+  //       "Developed 70+ page modules in responsive enterprise website backend system, including login/registration, permission configuration, data visualization charts, department management, employee management, course selection and course plan configuration",
+  //       "Built 50+ page modules in enterprise CRM backend project system, including enterprise information entry tracking, customer data management, order management for different course resources, and sales process management",
+  //       "Optimized large data volume loading lists in backend systems, reducing rendering time and improving loading speed; implemented visual configuration for mobile interfaces to avoid secondary development",
+  //       "Implemented authentication and multi-device single sign-on functionality in mobile projects; resolved audio/video compatibility issues and cross-platform mobile adaptation problems"
+  //     ],
+  //     technologies: ["Vue.js", "React", "TypeScript", "Node.js", "WebSocket", "Responsive Design"],
+  //     achievements: ["Improved system performance by 40%", "Reduced development time by 30%", "Enhanced user experience across platforms"]
+  //   },
+  //   {
+  //     id: 2,
+  //     company: "Shanghai Xueersi Online Education Co., Ltd.",
+  //     position: "Senior Frontend Developer",
+  //     period: "2022.09 - 2025.02",
+  //     location: "Shanghai, China",
+  //     description: "Led development of social viral group-buying activities and mobile optimization projects.",
+  //     responsibilities: [
+  //       "Developed and optimized group-buying activity pages based on social viral marketing, where users can initiate product group purchases and invite friends or new users to join within a limited time",
+  //       "Implemented real-time group status refresh using WebSocket (or short polling) to create urgency and improve conversion rates",
+  //       "Developed deep link jump functionality for social sharing links to directly access App activity pages",
+  //       "Built poster generation service based on Node.js + Puppeteer, moving poster generation to server-side rendering to significantly improve rendering speed and performance, avoiding frontend lag",
+  //       "Optimized page performance for high-concurrency mobile scenarios"
+  //     ],
+  //     technologies: ["Vue 3", "TypeScript", "React", "Ant Design", "Node.js", "Puppeteer", "WebSocket"],
+  //     achievements: ["Increased daily active users by 35%", "Improved conversion rate by 25%", "Reduced page load time by 50%"],
+  //     projectHighlight: "The group-buying model combines price attractiveness with social propagation power, effectively improving platform daily activity and conversion rates. Users can enjoy discounted prices when the required number of participants is reached, otherwise the system automatically refunds."
+  //   }
+  // ],
+
+  // Work Experience Configuration
+workExperience: [
     {
       id: 1,
-      company: "Beijing Dedao Information Technology Co., Ltd.",
-      position: "Frontend Developer",
-      period: "2020.06 - 2022.06",
-      location: "Beijing, China",
-      description: "Responsible for developing and maintaining enterprise-level backend management systems and CRM platforms.",
-      responsibilities: [
-        "Developed 70+ page modules in responsive enterprise website backend system, including login/registration, permission configuration, data visualization charts, department management, employee management, course selection and course plan configuration",
-        "Built 50+ page modules in enterprise CRM backend project system, including enterprise information entry tracking, customer data management, order management for different course resources, and sales process management",
-        "Optimized large data volume loading lists in backend systems, reducing rendering time and improving loading speed; implemented visual configuration for mobile interfaces to avoid secondary development",
-        "Implemented authentication and multi-device single sign-on functionality in mobile projects; resolved audio/video compatibility issues and cross-platform mobile adaptation problems"
-      ],
-      technologies: ["Vue.js", "React", "TypeScript", "Node.js", "WebSocket", "Responsive Design"],
-      achievements: ["Improved system performance by 40%", "Reduced development time by 30%", "Enhanced user experience across platforms"]
-    },
-    {
-      id: 2,
       company: "Shanghai Xueersi Online Education Co., Ltd.",
       position: "Senior Frontend Developer",
-      period: "2022.09 - 2025.02",
+      period: "Sep 2022 - Feb 2025",
       location: "Shanghai, China",
       description: "Led development of social viral group-buying activities and mobile optimization projects.",
       responsibilities: [
-        "Developed and optimized group-buying activity pages based on social viral marketing, where users can initiate product group purchases and invite friends or new users to join within a limited time",
-        "Implemented real-time group status refresh using WebSocket (or short polling) to create urgency and improve conversion rates",
-        "Developed deep link jump functionality for social sharing links to directly access App activity pages",
-        "Built poster generation service based on Node.js + Puppeteer, moving poster generation to server-side rendering to significantly improve rendering speed and performance, avoiding frontend lag",
-        "Optimized page performance for high-concurrency mobile scenarios"
+        "Developed C-end (Vue2+ JavaScript) and admin system (Vue3 + TypeScript) for a group-buying campaign platform. Implemented group purchase flows, invitation mechanisms, and an auto-refund feature.",
+        "Designed and developed a 'Cube' Low-code H5 Campaign Builder, a drag-and-drop platform enabling operations staff to build H5 campaign pages independently. This reduced the development cycle from 5 days to 1 day, resulting in a 5x faster delivery speed and 80% time saved.",
+        "Built a data visualization dashboard using Vue3 + TS + Vite + ECharts, integrating ECharts/AntV for multidimensional real-time monitoring of education KPIs like retention rate and live-stream analytics.",
+        "Made fullstack contributions by implementing backend APIs with Node.js and Express, collaborating on schema design, and integrating with CI/CD pipelines using AWS and Docker to streamline deployment and monitoring."
       ],
-      technologies: ["Vue 3", "TypeScript", "React", "Ant Design", "Node.js", "Puppeteer", "WebSocket"],
-      achievements: ["Increased daily active users by 35%", "Improved conversion rate by 25%", "Reduced page load time by 50%"],
-      projectHighlight: "The group-buying model combines price attractiveness with social propagation power, effectively improving platform daily activity and conversion rates. Users can enjoy discounted prices when the required number of participants is reached, otherwise the system automatically refunds."
+      technologies: ["Vue2/3", "TypeScript", "Node.js", "ECharts/AntV", "AWS", "Docker"],
+      achievements: [
+        "Improved H5 delivery speed by 400%, reducing the cycle from 5 days to 1 day.",
+        "Achieved 80% time savings for operations staff by enabling independent page building.",
+        "Used component-based architecture and Pinia to boost efficiency.",
+      ],
+      projectHighlight: "The 'Cube' Low-code H5 Campaign Builder significantly accelerated campaign delivery and empowered non-technical staff, demonstrating a direct impact on operational efficiency."
+    },
+    {
+      id: 2,
+      company: "Beijing Dedao Information Technology Co., Ltd.",
+      position: "Frontend Developer",
+      period: "Oct 2019 - Jun 2022",
+      location: "Beijing, China",
+      description: "Responsible for developing and maintaining enterprise-level backend management systems and CRM platforms.",
+      responsibilities: [
+        "Developed 70+ modules for an enterprise admin system, covering authentication, permissions, dashboards, and course management.",
+        "Built 50+ modules for an enterprise CRM system, including client tracking, order management, and sales workflow.",
+        "Optimized large data list rendering with virtual scrolling, reducing load time from 6s to under 1s.",
+        "Designed and maintained a component library with 40+ reusable components, achieving a 70% reuse rate.",
+        "Implemented multi-end Single Sign-On (SSO) and resolved audio/video playback compatibility issues for cross-platform projects."
+      ],
+      technologies: ["Vue.js", "React", "TypeScript", "Node.js", "Virtual Scrolling"],
+      achievements: [
+        "Reduced large data list load time from 6s to <1s through virtual scrolling.",
+        "Achieved a 70% component reuse rate by designing and maintaining a comprehensive component library.",
+        "Successfully implemented multi-device SSO and resolved cross-platform compatibility issues."
+      ],
+      projectHighlight: "Demonstrated a strong ability to optimize system performance and efficiency, from improving data loading speeds to creating a reusable component library."
+    },
+    {
+      id: 3,
+      company: "Didi Chuxing",
+      position: "Frontend Developer Intern",
+      period: "Mar 2019 - Oct 2019",
+      location: "Beijing, China",
+      description: "Contributed to the development of frontend applications and dashboards.",
+      responsibilities: [
+        "Built a nationwide EV charging station dashboard using Bootstrap and Amap API.",
+        "Developed WeChat mini-program pages based on UI designs for DidiPark."
+      ],
+      technologies: ["Bootstrap", "Amap API", "WeChat Mini Program"],
+      achievements: [
+        "Successfully implemented dashboard functionality for visualizing EV charging stations.",
+        "Contributed to the development of user-facing pages for a major mini-program."
+      ],
     }
   ],
 
   // Skills Configuration
-  skills: {
+  // skills: {
+  //   categories: [
+  //     {
+  //       name: "Frontend",
+  //       skills: [
+  //         { name: "React", level: 95 },
+  //         { name: "TypeScript", level: 90 },
+  //         { name: "JavaScript", level: 95 },
+  //         { name: "HTML/CSS", level: 90 },
+  //         { name: "Next.js", level: 85 },
+  //       ],
+  //     },
+  //     {
+  //       name: "Styling & Design",
+  //       skills: [
+  //         { name: "Tailwind CSS", level: 90 },
+  //         { name: "CSS3", level: 85 },
+  //         { name: "Figma", level: 80 },
+  //         { name: "Responsive Design", level: 95 },
+  //         { name: "UI/UX Principles", level: 85 },
+  //       ],
+  //     },
+  //     {
+  //       name: "Backend & Tools",
+  //       skills: [
+  //         { name: "Node.js", level: 80 },
+  //         { name: "Git", level: 90 },
+  //         { name: "npm/yarn", level: 85 },
+  //         { name: "Webpack/Vite", level: 80 },
+  //         { name: "REST APIs", level: 85 },
+  //       ],
+  //     },
+  //     {
+  //       name: "Other",
+  //       skills: [
+  //         { name: "Testing", level: 75 },
+  //         { name: "Performance", level: 80 },
+  //         { name: "SEO", level: 70 },
+  //         { name: "Accessibility", level: 75 },
+  //         { name: "PWA", level: 70 },
+  //       ],
+  //     },
+  //   ],
+  //   additional: [
+  //     "Redux", "Zustand", "React Query", "Jest", "Cypress", "Storybook",
+  //     "PostCSS", "Sass", "Styled Components", "Emotion", "Three.js",
+  //     "D3.js", "Chart.js", "Framer Motion", "GSAP", "WebGL"
+  //   ],
+  // Skills Configuration
+skills: {
     categories: [
       {
         name: "Frontend",
         skills: [
-          { name: "React", level: 95 },
+          { name: "Vue2/3", level: 95 },
+          { name: "React", level: 90 },
           { name: "TypeScript", level: 90 },
-          { name: "JavaScript", level: 95 },
-          { name: "HTML/CSS", level: 90 },
+          { name: "JavaScript (ES6+)", level: 95 },
           { name: "Next.js", level: 85 },
         ],
       },
       {
-        name: "Styling & Design",
+        name: "Backend",
         skills: [
-          { name: "Tailwind CSS", level: 90 },
-          { name: "CSS3", level: 85 },
-          { name: "Figma", level: 80 },
-          { name: "Responsive Design", level: 95 },
-          { name: "UI/UX Principles", level: 85 },
+          { name: "Node.js", level: 85 },
+          { name: "Express", level: 80 },
+          { name: "Koa", level: 80 },
+          { name: "RESTful API", level: 90 },
+          { name: "GraphQL", level: 75 },
         ],
       },
       {
-        name: "Backend & Tools",
+        name: "DevOps & Cloud",
         skills: [
-          { name: "Node.js", level: 80 },
-          { name: "Git", level: 90 },
-          { name: "npm/yarn", level: 85 },
-          { name: "Webpack/Vite", level: 80 },
-          { name: "REST APIs", level: 85 },
+          { name: "AWS (EC2, S3, Lambda)", level: 80 },
+          { name: "Docker", level: 85 },
+          { name: "CI/CD Pipelines", level: 80 },
         ],
       },
       {
-        name: "Other",
+        name: "Engineering & Tools",
         skills: [
-          { name: "Testing", level: 75 },
-          { name: "Performance", level: 80 },
-          { name: "SEO", level: 70 },
-          { name: "Accessibility", level: 75 },
-          { name: "PWA", level: 70 },
+          { name: "Webpack", level: 85 },
+          { name: "Vite", level: 90 },
+          { name: "Git", level: 95 },
+          { name: "Babel", level: 80 },
+          { name: "ESLint/Prettier", level: 90 },
         ],
       },
     ],
     additional: [
-      "Redux", "Zustand", "React Query", "Jest", "Cypress", "Storybook",
-      "PostCSS", "Sass", "Styled Components", "Emotion", "Three.js",
-      "D3.js", "Chart.js", "Framer Motion", "GSAP", "WebGL"
+      "Micro-frontend", "SSR", "Responsive Design", "WeChat Mini Programs", "Electron", "MySQL",
     ],
   },
 

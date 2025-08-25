@@ -10,7 +10,7 @@ const Navbar = () => {
 
   const navItems = [
     { name: t('nav.home'), href: '#home' },
-    { name: t('nav.about'), href: '#about' },
+    // { name: t('nav.about'), href: '#about' },
     { name: t('language') === 'zh' ? '工作经验' : 'Experience', href: '#experience' },
     { name: t('language') === 'zh' ? '教育背景' : 'Education', href: '#education' },
     { name: t('nav.projects'), href: '#projects' },

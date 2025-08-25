@@ -81,7 +81,7 @@ const Education = () => {
                 </div>
 
                 {/* GPA if available */}
-                {item.gpa && item.gpa !== 'N/A' && (
+                {/* {item.gpa && item.gpa !== 'N/A' && (
                   <div className="flex items-center space-x-3">
                     <Star className="w-5 h-5 text-gray-500 dark:text-gray-400" />
                     <div>
@@ -93,17 +93,17 @@ const Education = () => {
                       </span>
                     </div>
                   </div>
-                )}
+                )} */}
 
                 {/* Description */}
-                <div className="pt-2">
+                {/* <div className="pt-2">
                   <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                     {item.description}
                   </p>
-                </div>
+                </div> */}
 
                 {/* Relevant Courses */}
-                {item.relevantCourses && item.relevantCourses.length > 0 && (
+                {/* {item.relevantCourses && item.relevantCourses.length > 0 && (
                   <div className="pt-2">
                     <h4 className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                       {t('language') === 'zh' ? '相关课程' : 'Relevant Courses'}:
@@ -119,10 +119,10 @@ const Education = () => {
                       ))}
                     </div>
                   </div>
-                )}
+                )} */}
 
                 {/* Achievements */}
-                {item.achievements && item.achievements.length > 0 && (
+                {/* {item.achievements && item.achievements.length > 0 && (
                   <div className="pt-2">
                     <h4 className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                       {t('language') === 'zh' ? '成就' : 'Achievements'}:
@@ -138,7 +138,7 @@ const Education = () => {
                       ))}
                     </div>
                   </div>
-                )}
+                )} */}
               </div>
 
               {/* Degree Badge */}
