@@ -80,65 +80,7 @@ const Education = () => {
                   </div>
                 </div>
 
-                {/* GPA if available */}
-                {/* {item.gpa && item.gpa !== 'N/A' && (
-                  <div className="flex items-center space-x-3">
-                    <Star className="w-5 h-5 text-gray-500 dark:text-gray-400" />
-                    <div>
-                      <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
-                        GPA:
-                      </span>
-                      <span className="ml-2 text-gray-900 dark:text-white font-medium">
-                        {item.gpa}
-                      </span>
-                    </div>
-                  </div>
-                )} */}
 
-                {/* Description */}
-                {/* <div className="pt-2">
-                  <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                    {item.description}
-                  </p>
-                </div> */}
-
-                {/* Relevant Courses */}
-                {/* {item.relevantCourses && item.relevantCourses.length > 0 && (
-                  <div className="pt-2">
-                    <h4 className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                      {t('language') === 'zh' ? '相关课程' : 'Relevant Courses'}:
-                    </h4>
-                    <div className="flex flex-wrap gap-2">
-                      {item.relevantCourses.map((course, courseIndex) => (
-                        <span
-                          key={courseIndex}
-                          className="px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-xs rounded-full"
-                        >
-                          {course}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                )} */}
-
-                {/* Achievements */}
-                {/* {item.achievements && item.achievements.length > 0 && (
-                  <div className="pt-2">
-                    <h4 className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                      {t('language') === 'zh' ? '成就' : 'Achievements'}:
-                    </h4>
-                    <div className="space-y-1">
-                      {item.achievements.map((achievement, achievementIndex) => (
-                        <div key={achievementIndex} className="flex items-center space-x-2">
-                          <Award className="w-4 h-4 text-primary-500" />
-                          <span className="text-sm text-gray-600 dark:text-gray-400">
-                            {achievement}
-                          </span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )} */}
               </div>
 
               {/* Degree Badge */}
@@ -151,26 +93,7 @@ const Education = () => {
           ))}
         </div>
 
-        {/* Additional Info */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          viewport={{ once: true }}
-          className="mt-12 text-center"
-        >
-          {/* <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg dark:shadow-gray-900/20">
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-3">
-              {t('language') === 'zh' ? '学术成就' : 'Academic Achievements'}
-            </h3>
-            <p className="text-gray-600 dark:text-gray-300">
-              {t('language') === 'zh' 
-                ? '通过系统的学习和实践，我在计算机科学和前端开发领域建立了扎实的基础，并获得了多项认证和荣誉。'
-                : 'Through systematic learning and practice, I have built a solid foundation in computer science and frontend development, earning multiple certifications and honors.'
-              }
-            </p>
-          </div> */}
-        </motion.div>
+
       </div>
     </section>
   );
