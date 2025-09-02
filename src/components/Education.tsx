@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { GraduationCap, Calendar, MapPin, Award, Star } from 'lucide-react';
+import { GraduationCap, Calendar, MapPin } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { config } from '../../config';
 
